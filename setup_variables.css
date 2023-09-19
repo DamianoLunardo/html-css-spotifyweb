@@ -1,0 +1,16 @@
+/* colors and other things */
+
+:root {
+--white: #FFFFFF;
+--evidence-gray: #7D7F84;
+--playlist-text-gray: #6D6D6D;
+--main-bg: #141922;
+--sidebar-bg: #000000;
+--player-bar-bg: #282828;
+--icon-playerbar-gray: #878787;
+--player-icon-color: #A3A3A3;
+--underline-green: #ADFF2F;
+--sidebar-padding-left: 20px;
+--sidebar-width: 230px;
+--nav-item-height: 37px;
+}

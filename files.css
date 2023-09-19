@@ -1,0 +1,20 @@
+/* file for import all the styles of the document*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,100;9..40,700&family=Fredoka:wght@700&family=Inconsolata:wght@300;600&family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@200;500;700&family=Reem+Kufi+Fun&family=Roboto:wght@100&display=swap');
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+@import url("style.css");
+@import url("setup_variables.css");
+@import url("player_bar.css");
+@import url("media_queries.css");

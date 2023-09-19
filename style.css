@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,100;9..40,700&family=Fredoka:wght@700&family=Inconsolata:wght@300;600&family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@200;500;700&family=Reem+Kufi+Fun&family=Roboto:wght@100&display=swap');
+
+/* 
+font-family: 'Anton', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Fredoka', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Reem Kufi Fun', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +19,23 @@
 }
 
 html {
-    color: var(--white);
+    
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
 }
 
 #container__application {
   height: 100vh;
+}
+
+.col {
+  flex-basis: 0;
+}  
+
+.grow-1 {
+  flex-grow: 1;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
 }

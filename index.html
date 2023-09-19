@@ -20,76 +20,87 @@
 <div id="container__application" class="row row-vertical debug">
 
 <!-- Player bar test -->
-        <div id="player-bar" class="col row align-items-center">
+        <div id="player-bar" class="col row align-items-center space-between shrink-0">
             
             <!-- Left Side -->
-            <div class="col row ">
-                <div class="col row ">
-                    <div>
+            <div class="col row shrink-0 align-items-center space-between left-side">
+                <div class="col row align-items-center grow-1">
+                    <div class="col shrink-0">
                         <img src="./img/sinister.jpeg" alt="sinister">
                     </div>
-                    <div class="col row row-vertical">
-                        <div>
+                    <div class="col row row-vertical info-song">
+                        <div class="col song-name shrink-0">
                             Sinister
                         </div>
                         <div>
-                            <div>
+                            <div class="col artist-name shrink-0">
                             Brano Nome
                             </div>  
                         </div>
                     </div>
                 </div>
-                <div class="col row">
-                    <div>
+                <div class="col row row-vertical-small flex-container-icon">
+                    <div class="text-gray icon-container">
                         <i class="fa-regular fa-heart"></i>
                     </div>
-                    <div>
+                    <div class="text-gray icon-container">
                         <i class="fa-regular fa-folder"></i>
                     </div>
                 </div>
             </div>
 
             <!-- Center section -->
-            <div class="col row">
+            <div class="col row space-between row-vertical grow-1 player-control">
 
                 <!-- Nav bar icons play, pause... -->
-                <div class="col row ">
+                <div class="col row icons grow-1 justify-center align-items-center">
                     <div class="col">
-                        <div>
+                        <div class="center-icon">
                             <i class="fa-solid fa-shuffle"></i>
                         </div>
                     </div>
                     <div class="col">
-                        <div>
+                        <div class="center-icon">
                             <i class="fa-solid fa-backward-step"></i>
                         </div>
                     </div>
                     <div class="col">
-                        <div>
+                        <div class="relative-container play-icon">
+                            <div class="center-icon">
                             <i class="fa-regular fa-circle-play"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div>
+                        <div class="center-icon">
                             <i class="fa-solid fa-forward-step"></i>
                         </div>
                     </div>
                     <div class="col">
-                        <div>
+                        <div class="center-icon">
                             <i class="fa-solid fa-rotate-right"></i>
                         </div>
                     </div>
                 </div>
                 <!-- Nav bar__bar -->
-                <div class=" col row align-items-center">
-                    <div class="col">
-                        <div>
+                <div class="col row align-items-center space-between grow-1 track-bar">
+                    <div class="col shrink-0">
+                        <div class="time-display">
                             0:25
                         </div>
                     </div>
-                    <div>Qualcosa per la barra</div>
-                    <div class="col">
-                        <div>
+                    <!-- time bar -->
+
+                    <div class="col hover-space grow-1">
+                        <div class="relative-container time-bar">
+                            <div class="time-bar__progress">
+                                <div class="white-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col shrink-0">
+                        <div class="time-display">
                             4:35
                         </div>
                     </div>
@@ -97,14 +108,14 @@
             </div>
 
             <!-- right side -->
-            <div class="col row align-items-center">
-                <div class="col">
-                    <div>
+            <div class="col row align-items-center right-side shrink-0">
+                <div class="col shrink-0">
+                    <div class="icon-container">
                         <i class="fa-solid fa-list"></i>
                     </div>
                 </div>
-                <div class="col">
-                    <div>
+                <div class="col shrink-0">
+                    <div class="icon-container">
                         <i class="fa-solid fa-desktop"></i>
                     </div>
                 </div>
@@ -114,7 +125,11 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div> qualcosa per la barra</div>
+                    <div class="col hover-space shrink-0 grow-1">
+                        <div class="volume-bar relative-container">
+                            <div class="white-bar"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
        

@@ -1,3 +1,29 @@
 #player-bar {
     background-color: var(--player-bar-bg);
+    gap:16px;
+    min-height: 90px;
+}
+
+#player-bar .player-control {
+    width: 100%;
+    flex-basis: auto;
+    max-width: 428px;
+    gap: 10px;
+}
+
+#player-bar .player-control .icons {
+    gap: 16px;
+}
+
+#player-bar .center-icon {
+    font-size: 30px;
+}
+
+#player-bar .track-bar {
+    gap: 24px;
+}
+
+.hover-space {
+    padding: 12px 0;
+    cursor: pointer;
 }

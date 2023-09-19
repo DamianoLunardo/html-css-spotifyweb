@@ -11,6 +11,10 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Reem Kufi Fun', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
+.debug {
+  border: solid red 1px;
+}
+
 
 *{
     margin: 0;
@@ -19,8 +23,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 html {
-    
-    font-family: 'Montserrat', sans-serif;
+    color: var(--white);
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -30,6 +34,7 @@ html {
 
 .col {
   flex-basis: 0;
+  border: solid red 1px;
 }  
 
 .grow-1 {

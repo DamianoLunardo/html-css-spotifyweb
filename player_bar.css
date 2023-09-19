@@ -17,13 +17,130 @@
 
 #player-bar .center-icon {
     font-size: 30px;
+    transition: transform 0.5s;
 }
 
 #player-bar .track-bar {
     gap: 24px;
 }
 
+#player-bar .left-side .img-container {
+    padding: 10px;
+    width: 80px;
+    flex-basis: auto;
+}
+
+#player-bar .left-side .song-detail {
+    flex-basis: auto;
+}
+
+#player-bar .left-side .img-container img {
+    width: 100%;
+}
+
+#player-bar .left-side .artist-name:hover {
+    text-decoration: underline;
+}
+
+#player-bar .left-side .song-name {
+    font-size: 13px;
+    font-weight:bolder
+}
+
+#player-bar .left-side .artist-name {
+    font-size: 10px;
+    color: var(--playlist-text-gray);
+    font-weight: 500;
+}
+
 .hover-space {
     padding: 12px 0;
     cursor: pointer;
 }
+
+#player-bar .time-bar {
+    cursor: pointer;
+    background-color: var(--player-bar-color);
+    height: 5px;
+    border-radius: 7px;
+    transition: transform 0.5s;
+}
+
+#player-bar .time-bar .time-bar__progress {
+    background-color: var(--underline-green);
+}
+
+#player-bar .hover-space:hover .time-bar__progress .white-bar{
+    transform: translateY(-50%) scale(3);
+}
+
+#player-bar .time-bar .time-bar__progress {
+    width: 20%;
+    background-color: var(--white);
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    
+    transition-duration: 0.5s;
+}
+
+#player-bar .left-side {
+    min-width: var(--side-bar-width);
+}
+
+#player-bar .right-side {
+    min-width: var(--side-bar-width);
+    flex-basis: auto;
+}
+
+#player-bar .right-side .volume-bar {
+    background-color: var(--player-bar-color);
+    height: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#player-bar .right-side .volume-bar .current-volume-bar {
+    width: 40%;
+    background-color: var(--white);
+    height: 5px;
+    border-radius: 500px;
+    position: absolute;
+    top: -1px;
+    transition-duration: 0.4s;
+}
+
+#player-bar .right-side .hover-space:hover .current-volume-bar{
+    background-color: chartreuse;
+}
+
+#player-bar .right-side .hover-space:hover .current-volume-bar .white-bat{
+    transform: translateY(-50%) scale(3);
+}
+
+.white-bar {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    border-radius: 100%;
+    transition-duration: 0.2s;
+}
+
+#player-bar .right-side {
+    gap: 14px;
+    justify-content: space-between;
+    padding-right: 8px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+

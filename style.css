@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container__application {
+  height: 100vh;
+}

@@ -2,9 +2,10 @@
 
 .row {
     display: flex;
+    border: solid greenyellow 1px;
 }
 
-.align-items {
+.align-items-center {
     align-items: center;
 }
 

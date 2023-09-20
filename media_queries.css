@@ -1,7 +1,36 @@
 /* media query */
 
 /* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+	.site__logo {
+		display: none;
+	  }
+
+	  
+
+	  .logo {
+		background-image: url("./img/logo-small.svg");
+		background-size:contain;
+   		width: 40px; 
+    height: 40px; 
+	  }
+	
+	.playlst ul {
+		display: none; /* Nasconde completamente l'elemento <ul> */
+	  }
+
+	  .noshow__text {
+		display: none;
+	  }
+
+	  .download__img,
+	  .profile__img {
+		display: inline-block; /* Mostra solo le immagini con classi "download__img" e "profile__img" */
+	  }
+
+	 
+	  
+
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -19,14 +48,3 @@
 	}
 }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-}

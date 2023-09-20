@@ -1,0 +1,95 @@
+.icon__sidebar {
+    height: 24px;
+    width: 22px;
+}
+
+.site__logo {
+    height: 42px;
+    width: 134px;
+    margin-top: 20px;
+}
+
+.features__item {
+    display: flex;
+    gap: 10px;
+    padding-top: 11px;
+}
+
+.option__list {
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+
+.square__layout {
+    color: var(--player-icon-color);
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+.color__gray-text {
+    color: var(--playlist-text-gray);
+}
+
+.distance__elements {
+    display: flex;
+    gap: 24px;
+    padding-top: 15px;
+}
+
+.color__gray-text {
+    cursor: pointer;
+}
+
+.white__text:hover {
+    color: var(--white);
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.text__hover:hover {
+    color: var(--white);
+}
+
+
+#text,
+#icon {
+  line-height: 40px;
+}
+
+.download__img {
+    width: 30px;
+    height: 20px;
+}
+
+.profile__img {
+    width: 30px;
+    height: 20px;
+}
+
+.profile__bar::before {
+    content: '';
+    
+    background-color: var(--playlist-text-gray);
+    width: 190px;
+    height: 1px;
+    display: block;
+}
+
+.profile__bar {
+    margin-top: 10px;
+}
+
+.profile__zone {
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+

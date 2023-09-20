@@ -30,7 +30,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 html {
-	font-family: 'Open Sans', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {
@@ -105,5 +106,7 @@ img {
 .app__sidebar {
 	width: 230px;
 	background-color: black;
+  padding-left: var(--padding-left-sidebar);
 }
+
 

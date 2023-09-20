@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./setup_variables.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./player_bar.css">
+    <link rel="stylesheet" href="./side-bar.css">
     
     <link rel="stylesheet" href="./style.css">
     <title>Spotify</title>
@@ -137,8 +138,43 @@
 </div> -->
 
 <div id="app" class="flex flex-column">
-    <div class="app__content grow-1 flex">
-        <header class="app__sidebar">sidebar</header>
+
+<div class="app__content grow-1 flex">
+        <header class="app__sidebar">
+            <div>
+            <div> <img class="site__logo" src="./img/logo.svg"></div>
+            <div class="option__list">
+                <ul>
+                    <li class="features__item cursor"> <img class="icon__sidebar " src="./img/home.svg">Home</li>
+                    <li class="features__item color__gray-text cursor text__hover"> <img class="icon__sidebar" src="./img/search.svg">Cerca</li>
+                    <li class="features__item color__gray-text cursor text__hover"> <img class="icon__sidebar" src="./img/libreria.svg">La tua Libreria</li>
+                </ul>
+            </div>
+            <div>
+                <h4>PLAYLIST</h4>
+                <ul class="color__gray-text">
+                    <li class="distance__elements white__text"><i id="test" class="fa-solid fa-square-plus square__layout"></i><span id="text">Crea Playlist</span></li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                    <li class="distance__elements white__text">Nome Playlist</li>
+                 </ul>
+            </div>
+            </div>
+            <div class="profile__zone">
+            <div >
+            <div class="text-gray features__item"> <img class="download__img" src="./img/download.svg">Installa app</div>
+            </div>
+            <div class="profile__bar">
+            <div class="profile__name features__item"> <img class="profile__img" src="./img/profile.svg">Jhon Doe</div>
+            </div>
+            </div>
+        </header>
+        
+        
         <main class="app__main-content grow-1">contenuto</main>
     </div>
     <aside class="app__toolbar flex items-center justify-between">

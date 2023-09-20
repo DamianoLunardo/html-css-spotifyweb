@@ -1,0 +1,75 @@
+.upgrade__button {
+  justify-content: flex-end;
+}
+
+.header__main {
+  background-color: black;
+  height: 90px;
+}
+
+.button {
+  border-radius: 50px;
+  width: 216px;
+  height: 42px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.2);
+}
+
+.upgrade__button {
+  padding-top: 20px;
+  padding-right: 15px;
+}
+
+ul#menu li {
+  display: inline;
+  color: var(--playlist-text-gray);
+  font-size: 12px;
+  cursor: pointer;
+  gap: 200px;
+}
+
+.list__menu {
+  padding-top: 22px;
+  justify-content: center;
+}
+
+.content {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.recent__play {
+    font-size: 25px;
+}
+
+.col-6 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.padding__30 {
+    padding-top: 30px;
+}
+
+.padding__song {
+    padding-top: 10px;
+}
+
+.sub__title {
+    padding-top: 10px;
+    font-size: 10px;
+    color: var(--playlist-text-gray)
+    
+}
+
+.circle__image {
+    border-radius: 50%;
+}
+
+

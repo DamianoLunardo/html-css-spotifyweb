@@ -2,17 +2,22 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
+	.app__content {
+		width: 50px;
+	}
+	
 	.site__logo {
 		display: none;
 	  }
 
-	  
+	
 
 	  .logo {
 		background-image: url("./img/logo-small.svg");
 		background-size:contain;
-   		width: 40px; 
-    height: 40px; 
+   		width: 30px; 
+    	height: 30px;
+		
 	  }
 	
 	.playlst ul {

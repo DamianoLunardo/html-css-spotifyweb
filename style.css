@@ -11,24 +11,99 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Reem Kufi Fun', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-.debug {
-  border: solid red 1px;
-}
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+	--green: #adff2f;
+	--sidebar-width: 230px;
+	--progress: 25%;
+  --white: #FFFFFF;
+  --evidence-gray: #7D7F84;
+  --playlist-text-gray: #6D6D6D;
+  --main-bg: #141922;
+  --sidebar-bg: #000000;
+  --player-bar-bg: #282828;
+  --icon-playerbar-gray: #878787;
+  --player-icon-color: #A3A3A3;
+  --underline-green: #ADFF2F;
+  --player-bar-color: #C1C1C1;
+  --progress: 25%;
 }
 
 html {
-    color: var(--white);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
 }
 
-#container__application {
-  height: 100vh;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* utilities */
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.grow-1 {
+	flex-grow: 1;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.items-center {
+	align-items: center;
+}
+
+/* APP */
+#app {
+	height: 100vh;
+	color: white;
+}
+
+#app,
+.app__content,
+.app__toolbar,
+.app__sidebar,
+.app__main-content {
+	overflow: hidden;
+}
+
+.app__toolbar {
+	background-color: #282828;
+	min-height: 90px;
+}
+
+.app__main-content {
+	background-color: var(--main-bg);
+}
+
+.app__sidebar {
+	width: 230px;
+	background-color: black;
 }
 

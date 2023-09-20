@@ -1,3 +1,4 @@
+/*
 #player-bar {
     background-color: var(--player-bar-bg);
     gap:16px;
@@ -135,6 +136,119 @@
     justify-content: space-between;
     padding-right: 8px;
     font-size: 12px;
+}
+
+*/
+
+/* app toolbar */
+.track-player {
+	width: 50%;
+}
+
+.album-preview,
+.track-controls {
+	flex-basis: var(--sidebar-width);
+}
+
+.album-preview {
+	padding: 0 10px;
+	gap: 20px;
+}
+
+.album,
+.album-controls {
+	gap: 10px;
+}
+
+.album-controls {
+	flex-wrap: wrap;
+}
+
+.album__cover {
+	width: 28px;
+	aspect-ratio: 1;
+}
+
+.track-player .controls {
+	gap: 20px;
+	font-size: 22px;
+}
+
+.controls .control-icon.control--play {
+	font-size: 30px;
+	margin: 0 10px;
+}
+
+.progress-bar {
+	background-color: var(--player-bar-bg);
+	border-radius: 999px;
+	position: relative;
+}
+
+.progress {
+	height: 6px;
+	border-radius: 999px;
+	width: var(--progress);
+	background-color: rgb(179, 179, 179);
+}
+
+.track-timeline {
+	gap: 14px;
+}
+
+.progress-handler {
+	width: 16px;
+	height: 16px;
+	background-color: white;
+	border-radius: 999px;
+	position: absolute;
+	left: var(--progress);
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.progress-bar:hover .progress-handler {
+	display: block;
+}
+
+.progress-bar:hover .progress {
+	background-color: var(--green);
+}
+
+.track-controls {
+	gap: 16px;
+	padding: 0px 10px;
+	font-size: 18px;
+}
+
+.text-gray {
+    color: var(--playlist-text-gray);
+    cursor: pointer;
+} /* add */
+
+.text-gray:hover {
+    color: var(--white);
+}
+
+
+
+.track-player .control--play:hover{
+    transform: scale(1.5);
+}
+
+
+
+.album__track-name{
+    color: var(--icon-playerbar-gray);
+}
+
+.album__track-name:hover {
+    text-decoration: underline;
+}
+
+.album, .album-controls, .controls, .track-timeline, .track-controls {
+    cursor: pointer;
 }
 
 

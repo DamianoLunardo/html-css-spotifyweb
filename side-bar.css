@@ -68,32 +68,11 @@
     height: 20px;
 }
 
-/*
-.profile__bar::before {
-    content: '';
-    background-color: var(--playlist-text-gray);
-    width: 100px;
-    height: 1px;
-    display: block;
-}*/
-
 .profile__bar {
     margin-top: 10px;
 }
 
 .profile__zone {
     position: absolute;
-       bottom: 100px;
+    bottom: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-

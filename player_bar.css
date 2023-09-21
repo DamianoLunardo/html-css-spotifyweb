@@ -231,13 +231,9 @@
     color: var(--white);
 }
 
-
-
 .track-player .control--play:hover{
     transform: scale(1.5);
 }
-
-
 
 .album__track-name{
     color: var(--icon-playerbar-gray);

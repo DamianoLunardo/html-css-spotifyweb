@@ -180,7 +180,7 @@
 }
 
 .progress-bar {
-	background-color: var(--player-bar-bg);
+	background-color: var(--icon-playerbar-gray);
 	border-radius: 999px;
 	position: relative;
 }
@@ -199,7 +199,7 @@
 .progress-handler {
 	width: 16px;
 	height: 16px;
-	background-color: white;
+	background-color: rgb(255, 255, 255);
 	border-radius: 999px;
 	position: absolute;
 	left: var(--progress);
@@ -213,7 +213,7 @@
 }
 
 .progress-bar:hover .progress {
-	background-color: var(--green);
+	background-color: var(--underline-green);
 }
 
 .track-controls {

@@ -24,11 +24,17 @@
 		width: 150px;
 		height: 150px;
 	  }
+
+	  #menu  {
+		text-align: center;
+       	padding: 5px 5px 5px 5px;
+        margin: 1vh;
+    }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 577px) {
+@media screen and (max-width: 1800px) and (min-width: 577px) {
 	.app__main-content {
-		width: 80%;
+		width: 100%;
 	}
 	
 	.app__sidebar {
@@ -47,6 +53,12 @@
 		width: 150px;
 		height: 150px;
 	  }
+
+	  #menu  {
+		text-align: center;
+       	padding: 5px 5px 5px 5px;
+        margin: 1vh;
+    }
 }
 
 

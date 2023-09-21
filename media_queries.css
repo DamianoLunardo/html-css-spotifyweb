@@ -2,9 +2,9 @@
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-	.app__content {
+	/*.app__content {
 		width: 50px;
-	}
+	}*/
 	
 	.site__logo {
 		display: none;

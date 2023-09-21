@@ -104,4 +104,8 @@ img {
 	margin-left: 10px;
   }
 
+  .app__main-content {
+    overflow-y: scroll;
+}
+
 

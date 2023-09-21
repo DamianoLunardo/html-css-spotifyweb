@@ -31,8 +31,13 @@ ul#menu li {
   color: var(--playlist-text-gray);
   font-size: 12px;
   cursor: pointer;
-  gap: 200px;
+  padding-right: 10px;
 }
+
+ul#menu li:hover {
+  color: var(--white);
+}
+
 
 .list__menu {
   padding-top: 22px;
@@ -55,6 +60,10 @@ ul#menu li {
 
 .padding__30 {
     padding-top: 30px;
+}
+
+.padding__30bottom {
+  padding-bottom: 30px;
 }
 
 .padding__song {

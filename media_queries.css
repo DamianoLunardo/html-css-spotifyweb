@@ -1,47 +1,38 @@
 /* media query */
-
-/* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-	/*.app__content {
-		width: 50px;
-	}*/
-	
 	.site__logo {
 		display: none;
 	  }
-
-	
-
-	  .logo {
+	.logo {
 		background-image: url("./img/logo-small.svg");
 		background-size:contain;
+		margin-top: 30px;
+		margin-left: -3px;
    		width: 30px; 
     	height: 30px;
-		
-	  }
+	}
 	
 	.playlst ul {
-		display: none; /* Nasconde completamente l'elemento <ul> */
+		display: none; 
 	  }
 
 	  .noshow__text {
 		display: none;
 	  }
 
-	  .download__img,
-	  .profile__img {
-		display: inline-block; /* Mostra solo le immagini con classi "download__img" e "profile__img" */
+	  .profile-img-container {
+		width: 150px;
+		height: 150px;
 	  }
-
-	 
-	  
-
 }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media screen and (max-width: 1400px) and (min-width: 577px) {
+	.app__main-content {
+		width: 80%;
+	}
+	
 	.app__sidebar {
-		width: var(--sidebar-width);
+		width: 20%;
 	}
 
 	.album__cover {
@@ -51,5 +42,24 @@
 	.track-timeline {
 		gap: 24px;
 	}
+
+	.profile-img-container {
+		width: 150px;
+		height: 150px;
+	  }
 }
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 

@@ -68,14 +68,14 @@
     height: 20px;
 }
 
+/*
 .profile__bar::before {
     content: '';
-    
     background-color: var(--playlist-text-gray);
     width: 100px;
     height: 1px;
     display: block;
-}
+}*/
 
 .profile__bar {
     margin-top: 10px;
@@ -85,6 +85,9 @@
     position: absolute;
        bottom: 100px;
 }
+
+
+
 
 
 

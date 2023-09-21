@@ -101,7 +101,7 @@ img {
 
 .col-6 {
     flex-basis: calc(100% / 6 - var(--gap));
-	margin-left: 10px;
+	margin-right: 10px;
   }
 
 
